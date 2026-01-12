@@ -1,2 +1,2 @@
-FROM php:7.4.32-apache
+FROM php:8.5.2RC1-apache
 RUN docker-php-ext-install mysqli pdo pdo_mysql
